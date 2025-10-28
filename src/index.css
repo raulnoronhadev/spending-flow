@@ -3,15 +3,22 @@
 
 html,
 body,
+#root,
+.app,
 .content {
   height: 100%;
   width: 100%;
   font-family: "Roboto", sans-serif;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
 }
 
 .app {
   display: flex;
+  flex-direction: column;
   position: 'relative';
+  gap: 10px;
 }
 
 /* track */
